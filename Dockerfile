@@ -13,8 +13,9 @@ RUN pip install requests
 # Definir variables de entorno
 ENV TELEGRAM_TOKEN=""
 ENV KICK_CHANNEL=""
-ENV CHECK_INTERVAL=30
+ENV CHECK_INTERVAL=10
 
 # Ejecutar el bot
 CMD ["python", "bot.py"]
+
 
