@@ -66,7 +66,6 @@ if __name__ == "__main__":
 
             if live and not was_live:
                 broadcast(f"🟢 ¡{KICK_CHANNEL} está EN DIRECTO en Kick! 👉 https://kick.com/{KICK_CHANNEL}")
-                broadcast("🟢 Test: El bot está funcionando correctamente.")
 
 
             was_live = live
@@ -75,4 +74,5 @@ if __name__ == "__main__":
             print("Error:", e)
 
         time.sleep(CHECK_INTERVAL)
+
 
