@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Bot de avisos Kick"
+git branch -M main
+git remote add origin https://github.com/carter1221/kick-telegram-bot.git
+git push -u origin main
